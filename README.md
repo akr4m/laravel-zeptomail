@@ -4,8 +4,6 @@
 
 1.  Zoho ZeptoMail application with verified domain.
     
-2.  Laravel v9.0 and above.
-    
 
 **Installation and configuration**
 
@@ -13,7 +11,7 @@ You can add ZeptoMail driver to send emails from your Laravel application. As a 
 
 Navigate to the application's root folder and paste the following code.
 
-```composer require zohomail/laravel-zeptomail:dev-main```
+```composer require akr4m/laravel-zeptomail:dev-main```
 
 Next, you should set ZeptoMail as a mail transport. Follow the steps given [in this section](https://laravel.com/docs/10.x/mail#custom-transports) to add and define a custom transport. Next, you can add the mailer definition within your application's **config/mail.php** configuration file
 
